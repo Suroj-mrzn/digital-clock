@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url(patan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+#clock{
+    font-family: 'monospace';
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    width: 100%;
+}
